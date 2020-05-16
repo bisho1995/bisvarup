@@ -9,9 +9,7 @@ const Home = () => (
 
     <main>
       <h1 className="title">
-        Welcome to
-        {' '}
-        <a href="#">Next.js!</a>
+        Bisvarup Mukherjee
       </h1>
 
       <p className="description">
