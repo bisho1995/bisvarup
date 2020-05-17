@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import styles from '../styles/index.scss';
 
 const Home = () => (
   <div className="container">
@@ -8,12 +9,22 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <main>
+    <div className="wrapper">
+      <img
+        alt="Bisvarup Mukherjee"
+        src="/images/profile_photo.jpg"
+        draggable="false"
+      />
       <h1 className="title">Bisvarup Mukherjee</h1>
+    </div>
 
-      <p className="description">Coming soon...</p>
+    <p>
+      <a style={{ margin: '0 8px' }} href="https://www.facebook.com/bisvarup.mukherjee.9/" target="_blank" rel="noreferrer noopener nofollow"><img src="/images/facebook.svg" alt="facebook" style={{ height: 32 }} /></a>
+      <a style={{ margin: '0 8px' }} href="https://www.linkedin.com/in/bisvarup-mukherjee-78865a131/" target="_blank" rel="noreferrer noopener nofollow"><img src="/images/linkedin.svg" alt="linkedin" style={{ height: 32 }} /></a>
+      <a style={{ margin: '0 8px' }} href="https://github.com/bisho1995/" target="_blank" rel="noreferrer noopener nofollow"><img src="/images/github.svg" alt="github" style={{ height: 32 }} /></a>
+    </p>
+    <p className="description">Coming soon...</p>
 
-    </main>
 
     <style jsx>
       {`
