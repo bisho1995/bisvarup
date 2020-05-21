@@ -3,25 +3,26 @@ import Head from 'next/head';
 import styles from '../styles/index.scss';
 
 const Home = () => (
-  <div className="container">
+  <div className="container" style={{ minWidth: '100%', color: '#fff' }}>
     <Head>
       <title>Bisvarup Mukherjee</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <div className="wrapper">
+    <div className="wrapper block md:flex">
       <img
         alt="Bisvarup Mukherjee"
         src="/images/profile_photo.jpg"
         draggable="false"
+        className="rounded-full sm:m-0 md:mr-10"
       />
       <h1 className="title">Bisvarup Mukherjee</h1>
     </div>
 
     <p>
-      <a style={{ margin: '0 8px' }} href="https://www.facebook.com/bisvarup.mukherjee.9/" target="_blank" rel="noreferrer noopener nofollow"><img src="/images/facebook.svg" alt="facebook" style={{ height: 32 }} /></a>
-      <a style={{ margin: '0 8px' }} href="https://www.linkedin.com/in/bisvarup-mukherjee-78865a131/" target="_blank" rel="noreferrer noopener nofollow"><img src="/images/linkedin.svg" alt="linkedin" style={{ height: 32 }} /></a>
-      <a style={{ margin: '0 8px' }} href="https://github.com/bisho1995/" target="_blank" rel="noreferrer noopener nofollow"><img src="/images/github.svg" alt="github" style={{ height: 32 }} /></a>
+      <a style={{ margin: '0 8px' }} href="https://www.facebook.com/bisvarup.mukherjee.9/" target="_blank" rel="noreferrer noopener nofollow"><img src="/images/facebook.svg" alt="facebook" style={{ height: 32 }} className="inline-block" /></a>
+      <a style={{ margin: '0 8px' }} href="https://www.linkedin.com/in/bisvarup-mukherjee-78865a131/" target="_blank" rel="noreferrer noopener nofollow"><img src="/images/linkedin.svg" alt="linkedin" style={{ height: 32 }} className="inline-block" /></a>
+      <a style={{ margin: '0 8px' }} href="https://github.com/bisho1995/" target="_blank" rel="noreferrer noopener nofollow"><img src="/images/github.svg" alt="github" style={{ height: 32 }} className="inline-block" /></a>
     </p>
     <p className="description">Coming soon...</p>
 

@@ -13,8 +13,10 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
-        <body className="wrapper-w1">
+        <Head>
+          <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+        </Head>
+        <body className="bg-gray-100">
           <Main />
           <NextScript />
         </body>

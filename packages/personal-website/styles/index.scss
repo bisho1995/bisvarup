@@ -1,17 +1,20 @@
+body {
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 .wrapper {
-  display: flex;
 
   img {
-    border-radius: 50%;
     height: 200px;
     width: 200px;
-    margin-right: 16px;
   }
 }
 
 @media only screen and (max-width: 540px) {
   .wrapper {
-    flex-direction: column;
 
     .title {
         font-size: 3rem !important;
@@ -19,7 +22,6 @@
     }
 
     img {
-      margin: 0px auto;
       height: 150px;
       width: 150px;
     }

@@ -23,6 +23,7 @@ export default function Attribution() {
             from
             <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
           </div>
+          <div>Photo by Vadim Sadovski on Unsplash</div>
         </div>
       </div>
     </>
