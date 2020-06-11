@@ -3,16 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "author": "Bisvarup Mukherjee <codeworks0301@gmail.com>",
-  "scripts": {  
+  "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "analyze": "cross-env ANALYZE=true yarn build",
     "preexport": "yarn build",
-    "export": "next export"
+    "export": "next export -o build/"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "aws-sdk": "^2.695.0",
+    "fs-extra": "^9.0.1",
     "next": "^9.3.3",
     "node-sass": "^4.14.1",
     "react": "^16.13.0",
