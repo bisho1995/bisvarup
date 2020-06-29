@@ -24,6 +24,6 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx", "components/index/Hero/Hero.jsx", "components/index/Career/Career.jsx", "components/index/Footer/Footer.jsx"
   ]
 }
