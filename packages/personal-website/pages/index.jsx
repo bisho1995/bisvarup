@@ -70,15 +70,15 @@ const Home = () => (
       <h1 className="mt-10 mb-16 text-center sm:text-4xl text-3xl mb-4 font-medium text-gray-900">And add some YouTube as well...</h1>
       <div className="container px-5 pb-24 mx-auto">
         <div className="flex flex-wrap -mx-4 -mb-10 text-center">
-          <div className="sm:w-1/2 mb-10 px-4">
+          <div className="w-full sm:w-1/2 mb-10 px-4">
             <div className="rounded-lg overflow-hidden">
-              <iframe title="gatsby search post part 1" width="560" height="315" src="https://www.youtube.com/embed/XoKPFOPaoIk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+              <iframe className="w-full" title="gatsby search post part 1" src="https://www.youtube.com/embed/XoKPFOPaoIk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
             </div>
             <p className="leading-relaxed text-base mt-6 mb-3">Gatsbyjs | adding a search post functionality | part 1</p>
           </div>
-          <div className="sm:w-1/2 mb-10 px-4">
+          <div className="w-full sm:w-1/2 mb-10 px-4">
             <div className="rounded-lg  overflow-hidden">
-              <iframe title="gatsby search post part 2" width="560" height="315" src="https://www.youtube.com/embed/7vofO7capUo" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+              <iframe className="w-full" title="gatsby search post part 2" width="560" height="315" src="https://www.youtube.com/embed/7vofO7capUo" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
             </div>
             <p className="leading-relaxed text-base mt-6 mb-3">Gatsbyjs | adding a search post functionality | part 2</p>
           </div>
@@ -97,7 +97,7 @@ const Home = () => (
       </div>
       <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
         <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Add in some npm publications as well</h1>
-        <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p>
+        <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0 text-right">Occassionally I publish some npm projects as well 😎</p>
       </div>
     </div>
     <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
@@ -107,7 +107,7 @@ const Home = () => (
         </div>
         <h2 class="text-xl font-medium title-font text-gray-900 mt-5">waituntil2</h2>
         <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-        <a class="text-red-500 inline-flex items-center mt-3">Learn More
+        <a href="https://www.npmjs.com/package/waituntil2" target="_blank" rel="noreferrer nofollow" class="text-red-500 inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -119,7 +119,7 @@ const Home = () => (
         </div>
         <h2 class="text-xl font-medium title-font text-gray-900 mt-5">asymmetric-encryption</h2>
         <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-        <a class="text-red-500 inline-flex items-center mt-3">Learn More
+        <a href="https://www.npmjs.com/package/asymmetric-encryption" target="_blank" rel="noreferrer nofollow" class="text-red-500 inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -131,7 +131,7 @@ const Home = () => (
         </div>
         <h2 class="text-xl font-medium title-font text-gray-900 mt-5">@bisvarup/react-read-more</h2>
         <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-        <a class="text-red-500 inline-flex items-center mt-3">Learn More
+        <a href="https://www.npmjs.com/package/@bisvarup/react-read-more" target="_blank" rel="noreferrer nofollow" class="text-red-500 inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
