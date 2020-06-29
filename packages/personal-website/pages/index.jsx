@@ -72,13 +72,13 @@ const Home = () => (
         <div className="flex flex-wrap -mx-4 -mb-10 text-center">
           <div className="w-full sm:w-1/2 mb-10 px-4">
             <div className="rounded-lg overflow-hidden">
-              <iframe className="w-full" title="gatsby search post part 1" src="https://www.youtube.com/embed/XoKPFOPaoIk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+              <iframe className="w-full" title="gatsby search post part 1"  height="315" src="https://www.youtube.com/embed/XoKPFOPaoIk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
             </div>
             <p className="leading-relaxed text-base mt-6 mb-3">Gatsbyjs | adding a search post functionality | part 1</p>
           </div>
           <div className="w-full sm:w-1/2 mb-10 px-4">
             <div className="rounded-lg  overflow-hidden">
-              <iframe className="w-full" title="gatsby search post part 2" width="560" height="315" src="https://www.youtube.com/embed/7vofO7capUo" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+              <iframe className="w-full" title="gatsby search post part 2"  height="315" src="https://www.youtube.com/embed/7vofO7capUo" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
             </div>
             <p className="leading-relaxed text-base mt-6 mb-3">Gatsbyjs | adding a search post functionality | part 2</p>
           </div>
@@ -140,6 +140,10 @@ const Home = () => (
     </div>
   </div>
 </section>
+
+<footer className="bg-gray-200 text-center py-10">
+  Site powered by <a className="text-red-500" href="https://nextjs.org/" target="_blank" rel="noreferrer nofollow">NextJs</a> & <a className="text-red-500" href="https://vercel.com" target="_blank" rel="noreferrer nofollow">Vercel</a>
+</footer>
 
   </div>
 );
