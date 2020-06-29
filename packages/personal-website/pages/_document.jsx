@@ -16,7 +16,7 @@ class MyDocument extends Document {
         <Head>
           <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
           <script src="https://apis.google.com/js/platform.js" />
-          <meta name=" theme-color" content="#f56565" />
+          <meta name="theme-color" content="#f56565" />
         </Head>
         <body className="bg-gray-100">
           <Main />
