@@ -1,12 +1,10 @@
 body {
-  background-image: url("/images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 .wrapper {
-
   img {
     height: 200px;
     width: 200px;
@@ -15,10 +13,9 @@ body {
 
 @media only screen and (max-width: 540px) {
   .wrapper {
-
     .title {
-        font-size: 3rem !important;
-        margin-bottom: 16px !important;
+      font-size: 3rem !important;
+      margin-bottom: 16px !important;
     }
 
     img {
