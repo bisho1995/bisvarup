@@ -5,6 +5,7 @@
     "lerna": "^3.20.2"
   },
   "scripts": {
-    "lerna": "lerna"
+    "lerna-ls": "./node_modules/.bin/lerna ls",
+    "lerna-hoist":"./node_modules/.bin/lerna bootstrap --hoist"
   }
 }
