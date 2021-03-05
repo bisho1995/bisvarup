@@ -1,7 +1,6 @@
 {
   "name": "nextjs",
   "version": "0.1.0",
-  "private": true,
   "author": "Bisvarup Mukherjee <codeworks0301@gmail.com>",
   "scripts": {
     "dev": "next dev",
