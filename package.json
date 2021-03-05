@@ -6,7 +6,7 @@
   },
   "scripts": {
     "lerna-ls": "./node_modules/.bin/lerna ls",
-    "lerna-hoist":"./node_modules/.bin/lerna bootstrap --hoist",
+    "lerna-hoist": "./node_modules/.bin/lerna bootstrap --hoist",
     "blog-dev": "lerna run --scope blog.bisvarup.me dev --stream",
     "website-dev": "lerna run --scope personal-website dev --steam"
   }
