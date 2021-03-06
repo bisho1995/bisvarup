@@ -1,4 +1,4 @@
----
+yarn    ---
 title: Webpack and tree shaking
 date: 2020-05-06
 path: /webpack-and-tree-shaking
